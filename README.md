@@ -7,5 +7,10 @@ NodeJS project with TS + Mocha + Chai + NYC + TravisCI + Codecov
 ## About this project
 This project is a basic nodejs project with several dependencies, ready for CI environments
 
+## Usage
+1. From your GitHub account, import this project.
+2. Write your own code
+3. Upload to your repository
+
 ## CHANGELOG
 All notable changes in this repo will be documented in CHANGELOG file
