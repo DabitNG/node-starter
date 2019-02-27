@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/src/index.js",
     "tsc": "tsc",
-    "test": "mocha -r ts-node/register test/*.spec.ts test/**/*.spec.ts"
+    "test": "nyc --reporter=text mocha -r ts-node/register test/*.spec.ts test/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,37 @@
     "@types/mocha": "^5.2.6",
     "chai": "^4.2.0",
     "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 70,
+    "statements": 70,
+    "functions": 70,
+    "branches": 70,
+    "include": [
+      "src/*.ts",
+      "src/**/*.ts",
+      "test/*.spec.ts",
+      "test/**/*.spec.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [],
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "json",
+      "html"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "cache": true,
+    "all": true
   }
 }
