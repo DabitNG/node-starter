@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/DabitNG/node-starter.svg?branch=master)](https://travis-ci.org/DabitNG/node-starter)
+[![Build Status](https://travis-ci.org/DabitNG/node-starter.svg?branch=develop)](https://travis-ci.org/DabitNG/node-starter)
+
 # Node Starter
 NodeJS project with TS + Mocha + Chai + NYC + TravisCI + Codecov
 

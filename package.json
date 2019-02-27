@@ -1,0 +1,62 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "NodeJS project with TS + Mocha + Chai + NYC + TravisCI + Codecov",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "tsc": "tsc",
+    "test": "nyc --reporter=text mocha -r ts-node/register test/*.spec.ts test/**/*.spec.ts",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DabitNG/node-starter.git"
+  },
+  "keywords": [],
+  "author": "DabitNG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DabitNG/node-starter/issues"
+  },
+  "homepage": "https://github.com/DabitNG/node-starter#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "codecov": "^3.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 70,
+    "statements": 70,
+    "functions": 70,
+    "branches": 70,
+    "include": [
+      "src/*.ts",
+      "src/**/*.ts",
+      "test/*.spec.ts",
+      "test/**/*.spec.ts"
+    ],
+    "extension": [
+      ".ts"
+    ],
+    "exclude": [],
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "json",
+      "html"
+    ],
+    "require": [
+      "ts-node/register"
+    ],
+    "cache": true,
+    "all": true
+  }
+}
