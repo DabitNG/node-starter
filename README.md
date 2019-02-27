@@ -9,13 +9,13 @@ NodeJS project with TS + Mocha + Chai + NYC + TravisCI + Codecov
 This project is a basic nodejs project with several dependencies, ready for CI environments
 
 ## Usage
-1. From your GitHub account, import this project.
+1. Fork this project and edit the name (if you want).
 2. Go to your TravisCI account and activate project
 3. Go to your Codecov account and activate project
 4. Copy provided token please
 5. Back to Travis, copy token in your project settings paste Codecov token
 6. Write your own code
-7. Upload to your repository
+7. Commit changes and wait for TravisCI and Codecov response
 
 ## CHANGELOG
 All notable changes in this repo will be documented in CHANGELOG file
