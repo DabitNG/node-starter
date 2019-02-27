@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/src/index.js",
     "tsc": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register test/*.spec.ts test/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/DabitNG/node-starter#readme",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
   }

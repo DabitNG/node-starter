@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 - CHANGELOG.md 
 - README.md contains a faq about changelog
 - TypeScript support added
+- Mocha+Chai support added
 
 
 ## About CHANGELOG
