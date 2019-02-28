@@ -10,6 +10,6 @@ after_success:
 notifications:
   slack:
     rooms:
-    - davidnuno:frvxQrjgGARqPLETXsdm53WI#travis-ci
+    - davidnuno:frvxQrjgGARqPLETXsdm53WI#ci-reports
 
 
