@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/DabitNG/node-starter.svg?branch=master)](https://travis-ci.org/DabitNG/node-starter)
-[![Build Status](https://travis-ci.org/DabitNG/node-starter.svg?branch=develop)](https://travis-ci.org/DabitNG/node-starter)
-[![Code coverage](https://codecov.io/gh/DabitNG/node-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/DabitNG/node-starter)
+[![Build Status](https://travis-ci.org/davidnuno-es/node-starter.svg?branch=master)](https://travis-ci.org/davidnuno-es/node-starter)
+[![Build Status](https://travis-ci.org/davidnuno-es/node-starter.svg?branch=develop)](https://travis-ci.org/davidnuno-es/node-starter)
+[![Code coverage](https://codecov.io/gh/davidnuno-es/node-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/davidnuno-es/node-starter)
 
 # Node Starter
 NodeJS project with TS + Mocha + Chai + NYC + TravisCI + Codecov
