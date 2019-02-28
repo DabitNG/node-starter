@@ -7,3 +7,9 @@ script:
   - npm run report-coverage
 after_success:
   - codecov
+notifications:
+  slack:
+    rooms:
+    - davidnuno:frvxQrjgGARqPLETXsdm53WI#travis-ci
+
+
